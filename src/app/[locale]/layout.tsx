@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: "readventures Wiki", template: "%s | readventures Wiki" },
+    title: { default: "Readventures Wiki", template: "%s | Readventures Wiki" },
     description: "Readventures Wiki provides gameplay guides, character information, mechanics details, and useful tips to help players explore the adventure world.",
     openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
     twitter: { card: "summary_large_image", images: [image] },
