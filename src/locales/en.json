@@ -9,8 +9,8 @@
   "nav": {},
   "home": {
     "meta": {
-      "title": "Readventures Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete Readventures guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Readventures Wiki — Guides, Units, Tier Lists & Updates",
+      "description": "Complete Readventures guide on Roblox with active working codes, unit tier lists, summon mechanics, and progression walkthroughs."
     },
     "hero": {
       "eyebrow": "Fantasy Reading Adventure Game",
@@ -39,22 +39,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Master foundational movement, targeting priority, and early combat rhythms to kickstart your journey."
         },
         {
           "number": "2",
           "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "description": "Clear story acts efficiently and optimize wave farming routes to level up your units and account."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Gems & Resource Farming",
+          "description": "Stockpile gems and upgrade materials through daily challenges, quests, and repeatable tournament modes."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Readventures."
+          "title": "Summons & Rerolls",
+          "description": "Time your summons for top-tier banners and reroll combat traits to maximize squad synergies."
         }
       ]
     },
@@ -62,265 +62,295 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Unit Tier List",
+        "Erwin Buff Cycle",
+        "Tournament Mode"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Master early progression, core movement, and beginner loadouts in Readventures.",
+          "href": "/guide/readventures-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Rankings",
+          "title": "Unit Tier List",
+          "description": "Discover top meta units, tier rankings, and role breakdowns from S to C tier.",
+          "href": "/rankings/readventures-tier-list"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Mechanics",
+          "title": "Erwin Buff Cycle",
+          "description": "Learn the timing and mechanics for maintaining 100% buff uptime in combat.",
+          "href": "/mechanics/readventures-cycle-erwin"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Items",
+          "title": "Loadout Guide",
+          "description": "Build balanced loadouts pairing damage dealers with defensive sustain tools.",
+          "href": "/items/readventures-loadout"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Modes",
+          "title": "Tournament Mode",
+          "description": "Strategies and setups for climbing tournament ranks and earning rare loot.",
+          "href": "/modes/readventures-tournament-mode"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Characters",
+          "title": "Akainu Unit Guide",
+          "description": "Stats, burn damage multipliers, and deployment advice for Mythic Akainu.",
+          "href": "/characters/readventures-akainu"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Readventures?",
       "paragraphs": [
-        "Readventures is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Readventures is an anime-inspired action adventure and tactical tower defense game on Roblox. Players summon and command iconic heroes across challenging campaign stages, wave defenses, and competitive tournaments, combining elemental attacks, crowd control, and unit synergies.",
+        "Whether you are mastering unit placement, executing optimal buff cycles with Erwin, or farming gems for Mythic summons like Akainu and Shanks, our wiki provides complete data tables, progression roadmaps, and verified strategies."
       ],
       "stats": [
-        {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
         {
           "label": "Platform",
           "value": "Roblox"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Anime Tower Defense"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Game Modes",
+          "value": "Story & Tournament"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Rarity Tiers",
+          "value": "Rare to Secret"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Top Units",
+          "value": "Erwin, Shanks, Akainu"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Guides",
+          "value": "30+ Articles"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Readventures Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Explore comprehensive Readventures guides, character tier lists, unit loadouts, summoning strategies, and game mechanics to master every encounter.",
       "modules": [
         {
           "order": 1,
-          "name": "Readventures Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/readventures-codes",
-          "displayType": "code-box",
+          "name": "Readventures Beginner Guide",
+          "description": "Comprehensive starter guide covering essential controls, initial story progression, and foundational loadout advice for new adventurers.",
+          "href": "/guide/readventures-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Master movement controls, target cycling, and attack recovery animation canceling"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Advance primary story acts to unlock core mechanics, inventory, and shops"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Equip a balanced loadout with reliable frontline damage and defensive mitigation"
+            },
+            {
+              "label": "4",
+              "detail": "Reserve rare summon materials and avoid over-investing in temporary starter items"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/readventures-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Readventures Gameplay Guide",
+          "description": "In-depth breakdown of core combat mechanics, damage calculations, Erwin buff cycling, and tournament strategies.",
+          "href": "/mechanics/readventures-mechanics",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Combat",
+              "detail": "Balanced physical and elemental damage scaling across ground and air units"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Buffs",
+              "detail": "Synchronize Erwin vanguard rally cycles for permanent 100% team buff uptime"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Tourney",
+              "detail": "Compete in bracketed tournament modes with customized tactical loadouts"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/readventures-tier-list",
-          "displayType": "tier-grid",
+          "name": "Readventures Updates",
+          "description": "Track the latest patch notes, character balance adjustments, new content drops, and major system updates.",
+          "href": "/updates/readventures-update",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Update 1",
+              "detail": "Introduces tournament bracket mode, new mythic banners, and bug fixes",
+              "badge": "Latest"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Patch 1.1",
+              "detail": "Rebalanced summon pull rates and improved Erwin cycle timing indicators",
+              "badge": "Patch"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
-            },
-            {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Content",
+              "detail": "Added new infinite challenge maps with scaling wave rewards",
+              "badge": "New"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/readventures-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Readventures Characters",
+          "description": "Complete tier rankings and role breakdowns for all summonable units, from frontline vanguards to high-damage carries.",
+          "href": "/rankings/readventures-tier-list",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "S",
+              "detail": "Erwin & Akainu — Meta-defining buff cycling and devastating AoE burn damage"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "A",
+              "detail": "Shanks — Elite single-target burst swordsman with lethal gap-closing combos"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "B",
+              "detail": "Mid-tier damage dealers and situational crowd control support units"
+            },
+            {
+              "label": "C",
+              "detail": "Basic starter units suitable for early story acts before unlocking summons"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/readventures-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Readventures Items Guide",
+          "description": "Detailed reference for in-game items, gems, summon tickets, trait rerolls, and equipment loadouts.",
+          "href": "/items/readventures-loadout",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Gems",
+              "detail": "Primary summoning currency farmed through daily quests and story first-clears",
+              "badge": "Currency"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Summons",
+              "detail": "Tactical spirit allies providing crowd control, shielding, and burst damage",
+              "badge": "Gear"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Rerolls",
+              "detail": "Tokens used to roll optimal secondary traits and combat stat modifiers",
+              "badge": "Upgrade"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/readventures-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Readventures Secrets",
+          "description": "Discover hidden mechanics, advanced wave strategies, summon pity tracking, and optimal progression shortcuts.",
+          "href": "/guide/readventures-noob-to-pro",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Pity Track",
+              "detail": "Track summon banner pity guarantees to secure top-tier Mythic units safely"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Animation",
+              "detail": "Cancel attack recovery animations using quick dash inputs to boost DPS"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Synergy",
+              "detail": "Combine elemental burns with physical cleave to melt armored raid bosses"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Readventures Tips and Tricks",
+          "description": "Tactical advice and efficiency tips for clearing high-difficulty challenge maps and maximizing farming efficiency.",
+          "href": "/guide/readventures-progression",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Early Game",
+              "detail": "Prioritize survivability and cooldown reduction over raw glass-cannon damage"
+            },
+            {
+              "label": "Resource",
+              "detail": "Set clear farming goals before long sessions to avoid material waste"
+            },
+            {
+              "label": "Position",
+              "detail": "Place ground frontliners at choke points and hill snipers on high ground"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Readventures Community",
+          "description": "Connect with the Readventures player community across Discord, Reddit, and YouTube for strategies and updates.",
+          "href": "/community/readventures-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "Join thousands of players for real-time raid grouping, trades, and announcements"
+            },
+            {
+              "label": "Reddit",
+              "detail": "Discuss theorycrafting, unit tier lists, and meta strategies on the subreddit"
+            },
+            {
+              "label": "YouTube",
+              "detail": "Watch high-wave showcase runs, unit comparisons, and banner summon guides"
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Readventures.",
+      "title": "Readventures Frequently Asked Questions",
+      "description": "Quick answers to common questions about Readventures gameplay, summoning, units, and updates.",
       "items": [
         {
-          "question": "What is Readventures?",
-          "answer": "Readventures is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What kind of game is Readventures?",
+          "answer": "Readventures is an anime action and tactical tower defense game on Roblox where players summon iconic characters, tackle campaign waves, and battle through competitive tournaments."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do I progress as a beginner in Readventures?",
+          "answer": "Focus on clearing the main story acts to unlock core gameplay systems, save your gems for high-value summon banners, and balance your Readventures squad with damage dealers and support buffers like Erwin."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What are the best units in Readventures?",
+          "answer": "Top-ranked Readventures units include Erwin for squad-wide damage buff cycling, Akainu for devastating area-of-effect burns, and Shanks for lethal single-target boss burst."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do I farm gems and reroll tokens in Readventures?",
+          "answer": "In Readventures, you can earn gems by completing first-time story milestones, participating in daily challenges, and clearing tournament mode waves to fuel your character summons and trait rerolls."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Where can I find the latest Readventures updates and patch notes?",
+          "answer": "Our Readventures wiki documents every game update, including new unit releases, balance adjustments, and official community announcements from Discord and YouTube."
         }
       ]
     },

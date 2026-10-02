@@ -2,20 +2,62 @@
   "name": "Readventures Wiki",
   "short_name": "Readventures",
   "description": "Readventures Wiki provides gameplay guides, character information, mechanics details, and useful tips to help players explore the adventure world.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#110b1a",
-  "theme_color": "#8c47d0",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#131520",
+  "theme_color": "#a347d1",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["games", "entertainment", "education"],
   "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Beginner Guide",
+      "short_name": "Beginner",
+      "url": "/guide/readventures-beginner-guide"
+    },
+    {
+      "name": "Unit Tier List",
+      "short_name": "Tier List",
+      "url": "/rankings/readventures-tier-list"
     }
   ]
 }
