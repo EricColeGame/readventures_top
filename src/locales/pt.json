@@ -1,1 +1,440 @@
-{}
+{
+  "site": {
+    "name": "Readventures Wiki",
+    "shortName": "Readventures",
+    "tagline": "Guias, personagens e tutoriais de gameplay",
+    "description": "O Readventures Wiki oferece guias de gameplay, informações de personagens, detalhes de mecânicas e dicas úteis para ajudar os jogadores a explorar o mundo de aventura.",
+    "legalNotice": "Wiki de fãs não oficial. Feita por jogadores, para jogadores."
+  },
+  "nav": {
+    "home": "Início",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema",
+    "guide": "Guia",
+    "mechanics": "Mecânicas",
+    "characters": "Personagens",
+    "items": "Itens",
+    "rankings": "Rankings",
+    "modes": "Modos",
+    "updates": "Atualizações",
+    "community": "Comunidade"
+  },
+  "home": {
+    "meta": {
+      "title": "Readventures Wiki — Guias, unidades, tier lists e atualizações",
+      "description": "Guia completo de Readventures no Roblox com códigos ativos, tier lists de unidades, mecânicas de invocação e tutoriais de progressão."
+    },
+    "hero": {
+      "eyebrow": "Jogo de aventura de leitura de fantasia",
+      "title": "Readventures Wiki",
+      "description": "Readventures é uma experiência de jogo focada em aventura, construída em torno de exploração, histórias e descoberta interativa. Explore guias de gameplay, personagens, mecânicas e informações úteis para jogadores.",
+      "stats": [
+        "Visitas totais",
+        "Conteúdo disponível",
+        "Códigos ativos",
+        "Atualizações diárias"
+      ],
+      "primaryCta": "Guia para iniciantes",
+      "secondaryCta": "Explorar guias",
+      "tertiaryCta": "Códigos ativos",
+      "videoLabel": "Mídia oficial"
+    },
+    "updates": {
+      "title": "Últimas atualizações de Readventures",
+      "browse": "Ver todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada em Readventures",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Domine o movimento básico, a prioridade de alvos e os ritmos de combate iniciais para impulsionar sua jornada."
+        },
+        {
+          "number": "2",
+          "title": "Nivelamento mais rápido",
+          "description": "Conclua os atos da história com eficiência e otimize rotas de farm de ondas para subir de nível suas unidades e sua conta."
+        },
+        {
+          "number": "3",
+          "title": "Farm de gemas e recursos",
+          "description": "Acumule gemas e materiais de melhoria por meio de desafios diários, missões e modos de torneio repetíveis."
+        },
+        {
+          "number": "4",
+          "title": "Invocações e rerolls",
+          "description": "Escolha o momento das invocações para os melhores banners e faça reroll de traços de combate para maximizar as sinergias do esquadrão."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Em alta agora",
+      "quickLinks": [
+        "Guia para iniciantes",
+        "Tier list de unidades",
+        "Ciclo de buff do Erwin",
+        "Modo torneio"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia para iniciantes",
+          "description": "Domine a progressão inicial, o movimento básico e os equipamentos iniciais em Readventures.",
+          "href": "/guide/readventures-beginner-guide"
+        },
+        {
+          "badge": "Rankings",
+          "title": "Tier list de unidades",
+          "description": "Descubra as melhores unidades do meta, rankings por tier e divisões de função de S a C.",
+          "href": "/rankings/readventures-tier-list"
+        },
+        {
+          "badge": "Mecânicas",
+          "title": "Ciclo de buff do Erwin",
+          "description": "Aprenda o timing e as mecânicas para manter 100% de tempo de buff em combate.",
+          "href": "/mechanics/readventures-cycle-erwin"
+        },
+        {
+          "badge": "Itens",
+          "title": "Guia de loadout",
+          "description": "Monte loadouts equilibrados combinando causadores de dano com ferramentas defensivas de sustentação.",
+          "href": "/items/readventures-loadout"
+        },
+        {
+          "badge": "Modos",
+          "title": "Modo torneio",
+          "description": "Estratégias e configurações para subir nos rankings do torneio e ganhar loot raro.",
+          "href": "/modes/readventures-tournament-mode"
+        },
+        {
+          "badge": "Personagens",
+          "title": "Guia da unidade Akainu",
+          "description": "Atributos, multiplicadores de dano de queimadura e dicas de posicionamento para o Akainu Mítico.",
+          "href": "/characters/readventures-akainu"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Readventures?",
+      "paragraphs": [
+        "Readventures é um jogo de ação e aventura inspirado em anime e tower defense tático no Roblox. Os jogadores invocam e comandam heróis icônicos em fases desafiadoras de campanha, defesas de ondas e torneios competitivos, combinando ataques elementais, controle de grupo e sinergias de unidades.",
+        "Seja dominando o posicionamento de unidades, executando ciclos de buff ideais com Erwin ou farmando gemas para invocações Míticas como Akainu e Shanks, nossa wiki oferece tabelas de dados completas, roteiros de progressão e estratégias verificadas."
+      ],
+      "stats": [
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "Tower defense de anime"
+        },
+        {
+          "label": "Modos de jogo",
+          "value": "História e torneio"
+        },
+        {
+          "label": "Níveis de raridade",
+          "value": "De Raro a Secreto"
+        },
+        {
+          "label": "Melhores unidades",
+          "value": "Erwin, Shanks, Akainu"
+        },
+        {
+          "label": "Guias",
+          "value": "Mais de 30 artigos"
+        }
+      ],
+      "cta": "Explorar todos os guias"
+    },
+    "explore": {
+      "title": "Explore o Readventures Wiki",
+      "description": "Explore guias completos de Readventures, tier lists de personagens, loadouts de unidades, estratégias de invocação e mecânicas de jogo para dominar cada encontro.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guia para iniciantes de Readventures",
+          "description": "Guia inicial completo que cobre os controles essenciais, a progressão inicial da história e conselhos fundamentais de loadout para novos aventureiros.",
+          "href": "/guide/readventures-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Domine os controles de movimento, a troca de alvos e o cancelamento de animações de recuperação de ataque"
+            },
+            {
+              "label": "2",
+              "detail": "Avance pelos atos principais da história para desbloquear mecânicas centrais, inventário e lojas"
+            },
+            {
+              "label": "3",
+              "detail": "Equipe um loadout equilibrado com dano confiável de linha de frente e mitigação defensiva"
+            },
+            {
+              "label": "4",
+              "detail": "Reserve materiais raros de invocação e evite investir demais em itens iniciais temporários"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guia de gameplay de Readventures",
+          "description": "Análise aprofundada das mecânicas centrais de combate, cálculos de dano, ciclo de buff do Erwin e estratégias de torneio.",
+          "href": "/mechanics/readventures-mechanics",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Combate",
+              "detail": "Escalonamento equilibrado de dano físico e elemental entre unidades terrestres e aéreas"
+            },
+            {
+              "label": "Buffs",
+              "detail": "Sincronize os ciclos de rally de vanguarda do Erwin para 100% de tempo de buff de equipe permanente"
+            },
+            {
+              "label": "Torneio",
+              "detail": "Compita em modos de torneio com chaves eliminatórias e loadouts táticos personalizados"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Atualizações de Readventures",
+          "description": "Acompanhe as últimas notas de patch, ajustes de balanceamento de personagens, novos conteúdos e grandes atualizações de sistema.",
+          "href": "/updates/readventures-update",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Atualização 1",
+              "detail": "Introduz o modo de torneio com chaves, novos banners Míticos e correções de bugs",
+              "badge": "Mais recente"
+            },
+            {
+              "label": "Patch 1.1",
+              "detail": "Reequilibra as taxas de invocação e melhora os indicadores de timing do ciclo do Erwin",
+              "badge": "Patch"
+            },
+            {
+              "label": "Conteúdo",
+              "detail": "Adiciona novos mapas de desafio infinito com recompensas de ondas escalonáveis",
+              "badge": "Novo"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Personagens de Readventures",
+          "description": "Rankings completos por tier e divisões de função de todas as unidades invocáveis, de vanguardas de linha de frente a carries de alto dano.",
+          "href": "/rankings/readventures-tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Erwin e Akainu — Ciclo de buff que define o meta e dano de queimadura em área devastador"
+            },
+            {
+              "label": "A",
+              "detail": "Shanks — Espadachim de elite com burst de alvo único e combos letais de aproximação"
+            },
+            {
+              "label": "B",
+              "detail": "Causadores de dano de tier médio e unidades de suporte com controle de grupo situacional"
+            },
+            {
+              "label": "C",
+              "detail": "Unidades iniciais básicas adequadas para os primeiros atos da história antes de desbloquear as invocações"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guia de itens de Readventures",
+          "description": "Referência detalhada de itens do jogo, gemas, tickets de invocação, rerolls de traços e loadouts de equipamento.",
+          "href": "/items/readventures-loadout",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Gemas",
+              "detail": "Moeda principal de invocação farmada em missões diárias e primeiras conclusões da história",
+              "badge": "Moeda"
+            },
+            {
+              "label": "Invocações",
+              "detail": "Aliados espirituais táticos que oferecem controle de grupo, escudos e dano explosivo",
+              "badge": "Equipamento"
+            },
+            {
+              "label": "Rerolls",
+              "detail": "Fichas usadas para rolar traços secundários ideais e modificadores de atributos de combate",
+              "badge": "Melhoria"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Segredos de Readventures",
+          "description": "Descubra mecânicas ocultas, estratégias avançadas de ondas, rastreamento de pity de invocação e atalhos de progressão ideais.",
+          "href": "/guide/readventures-noob-to-pro",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Pity",
+              "detail": "Acompanhe as garantias de pity dos banners de invocação para conseguir unidades Míticas de alto nível com segurança"
+            },
+            {
+              "label": "Animação",
+              "detail": "Cancele animações de recuperação de ataque com dash rápido para aumentar o DPS"
+            },
+            {
+              "label": "Sinergia",
+              "detail": "Combine queimaduras elementais com cleave físico para derreter chefes de raid blindados"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Dicas e truques de Readventures",
+          "description": "Conselhos táticos e dicas de eficiência para concluir mapas de desafio de alta dificuldade e maximizar a eficiência de farm.",
+          "href": "/guide/readventures-progression",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Início de jogo",
+              "detail": "Priorize sobrevivência e redução de recarga em vez de dano puro de vidro"
+            },
+            {
+              "label": "Recursos",
+              "detail": "Defina metas claras de farm antes de sessões longas para evitar desperdício de materiais"
+            },
+            {
+              "label": "Posição",
+              "detail": "Posicione a linha de frente terrestre em pontos de estrangulamento e os snipers em terreno elevado"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Comunidade de Readventures",
+          "description": "Conecte-se com a comunidade de jogadores de Readventures no Discord, Reddit e YouTube para estratégias e atualizações.",
+          "href": "/community/readventures-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "Junte-se a milhares de jogadores para agrupamento em raids em tempo real, trocas e anúncios"
+            },
+            {
+              "label": "Reddit",
+              "detail": "Discuta teoria, tier lists de unidades e estratégias de meta no subreddit"
+            },
+            {
+              "label": "YouTube",
+              "detail": "Assista a runs de exibição de ondas altas, comparações de unidades e guias de invocação de banners"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes sobre Readventures",
+      "description": "Respostas rápidas para perguntas comuns sobre gameplay, invocação, unidades e atualizações de Readventures.",
+      "items": [
+        {
+          "question": "Que tipo de jogo é Readventures?",
+          "answer": "Readventures é um jogo de ação anime e tower defense tático no Roblox, onde os jogadores invocam personagens icônicos, enfrentam ondas de campanha e batalham em torneios competitivos."
+        },
+        {
+          "question": "Como eu progrido como iniciante em Readventures?",
+          "answer": "Foque em concluir os atos principais da história para desbloquear os sistemas centrais, guarde suas gemas para banners de invocação valiosos e equilibre seu esquadrão de Readventures com causadores de dano e suportes como Erwin."
+        },
+        {
+          "question": "Quais são as melhores unidades de Readventures?",
+          "answer": "As unidades mais bem classificadas de Readventures incluem Erwin pelo ciclo de buff de dano para todo o esquadrão, Akainu por queimaduras devastadoras em área e Shanks pelo burst letal contra chefes de alvo único."
+        },
+        {
+          "question": "Como farmo gemas e fichas de reroll em Readventures?",
+          "answer": "Em Readventures, você pode ganhar gemas concluindo marcos da história pela primeira vez, participando de desafios diários e vencendo ondas do modo torneio para financiar invocações de personagens e rerolls de traços."
+        },
+        {
+          "question": "Onde encontro as últimas atualizações e notas de patch de Readventures?",
+          "answer": "Nossa wiki de Readventures documenta cada atualização do jogo, incluindo novos lançamentos de unidades, ajustes de balanceamento e anúncios oficiais da comunidade no Discord e no YouTube."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para explorar Readventures?",
+      "description": "De dicas para iniciantes a mecânicas aprofundadas e tutoriais, nossa wiki da comunidade tem guias gratuitos e atualizados para você.",
+      "primary": "Leia o guia para iniciantes",
+      "secondary": "Jogar no Roblox"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da wiki",
+    "activeCodes": "Códigos ativos",
+    "updated": "Atualizado",
+    "playOnRoblox": "Jogar no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos passos",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leitura relacionada",
+    "relatedGuides": "Guias relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Ainda não há guias disponíveis. Volte em breve!",
+    "viewAllUpdates": "Ver todas as atualizações"
+  },
+  "footer": {
+    "aboutTitle": "Readventures Wiki",
+    "about": "O Readventures Wiki é um hub de guias independente feito por fãs, cobrindo rotas de exploração, personagens, mecânicas e conhecimentos essenciais do jogo para jogadores novos e veteranos.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Legal",
+    "copyright": "2026 Readventures Wiki. Hub de guias comunitário não oficial.",
+    "description": "Guias completos, tutoriais, mecânicas e dicas de exploração para Readventures.",
+    "playGame": "Jogar no Roblox",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "vvBuilder": "Planejador de personagens",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  },
+  "guide": {
+    "overviewTitle": "Guias de Readventures",
+    "overviewDescription": "Guias passo a passo de Readventures cobrindo o caminho do iniciante, progressão, rerolls e gasto de gemas para que novos jogadores saibam exatamente o que fazer primeiro."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de Readventures",
+    "overviewDescription": "Aprenda como o combate de Readventures realmente funciona, incluindo escalonamento de dano, acúmulo de buffs, o ciclo do Erwin e as regras do torneio."
+  },
+  "characters": {
+    "overviewTitle": "Personagens de Readventures",
+    "overviewDescription": "Análises de unidades e notas de desbloqueio de personagens de Readventures como Shanks, Akainu e Erwin, além de como montar um roster forte."
+  },
+  "items": {
+    "overviewTitle": "Itens de Readventures",
+    "overviewDescription": "Tudo sobre itens e recursos de Readventures: gemas, invocações, rerolls e as escolhas de loadout que moldam sua run."
+  },
+  "rankings": {
+    "overviewTitle": "Rankings de Readventures",
+    "overviewDescription": "Tier lists e rankings de Readventures que organizam as melhores unidades, o meta atual e as escolhas mais fortes para cada estágio do jogo."
+  },
+  "modes": {
+    "overviewTitle": "Modos de jogo de Readventures",
+    "overviewDescription": "Visões gerais de todos os modos de jogo de Readventures, da run de desafio ao modo torneio e as recompensas que cada um oferece."
+  },
+  "updates": {
+    "overviewTitle": "Atualizações de Readventures",
+    "overviewDescription": "Notas de patch e cobertura de atualizações de Readventures, incluindo novas unidades, mudanças de balanceamento e tudo adicionado no último lançamento."
+  },
+  "community": {
+    "overviewTitle": "Comunidade de Readventures",
+    "overviewDescription": "Encontre os canais oficiais de Discord, Reddit e YouTube de Readventures para compartilhar builds, códigos e dicas com outros jogadores."
+  }
+}
