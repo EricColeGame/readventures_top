@@ -1,0 +1,198 @@
+export const metadata = {
+  title: "Guia de Torneio de ReAdventures: Configurações Comprovadas, Escalações e Estratégias de Ranqueamento",
+  description: "Domine o torneio de readventures com arquétipos de escalação especializados, regras de pontuação, sequências de abertura e dicas de posicionamento na tabela.",
+  category: "mechanics",
+  date: "2026-09-24",
+};
+
+Entrar no jogo competitivo exige muito mais do que apenas posicionar seus personagens de nível mais alto; requer uma compreensão clínica da pontuação do evento e do ritmo das ondas. Se você deseja conquistar as melhores recompensas da tabela de classificação, dominar o sistema de **torneio de readventures** é essencial para a sua progressão. O sucesso em qualquer **torneio de readventures** resume-se a adaptar sua composição aos modificadores de mapa específicos e às condições de pontuação, em vez de depender apenas da força bruta. 
+
+Ao priorizar uma execução consistente em vez de apostas de alta variância, subir pelas faixas da tabela de classificação torna-se um processo previsível e controlável. Este guia abrangente aborda tudo o que você precisa para estruturar uma equipe vencedora de torneios, garantir o máximo de pontos e diagnosticar falhas comuns durante as partidas.
+
+---
+
+## Entendendo as Mecânicas do Torneio e Condições de Vitória
+
+O maior erro cometido pelos jogadores em eventos competitivos é tratar as partidas como fases comuns de campanha. Na progressão padrão, concluir uma onda com 1% de vida restante concede a mesma vitória que uma rodada impecável. No modo de torneio, porém, a vitória é estritamente definida pelos critérios de pontuação atribuídos àquele ciclo de evento específico.
+
+Antes de gastar bilhetes de evento ou investir rerolls valiosos, analise o regulamento do torneio. As temporadas competitivas em *ReAdventures* alternam entre várias estruturas distintas de pontuação:
+
+* **Dano Total Sustentado:** Os pontos aumentam diretamente com o volume numérico bruto de dano infligido ao longo de todo o confronto.
+* **Velocidade de Eliminação (Time Attack):** A pontuação cai rapidamente conforme o tempo passa, priorizando aberturas com dano explosivo imediato e habilidades de limpeza de mapa instantâneas.
+* **Sobrevivência de Ondas:** Cada onda superada concede uma pontuação base crescente, frequentemente penalizando baixas no esquadrão ou danos estruturais.
+* **Controle de Chefes / Objetivos:** Multiplicadores são concedidos ao derrotar alvos prioritários mantendo zonas específicas do mapa livres de lacaios menores.
+
+```
++------------------------------------------------------------------------+
+|                  PRIORIDADE DOS OBJETIVOS DE PONTUAÇÃO                 |
+|                                                                        |
+|  [Time Attack]  ---> Dano explosivo inicial e limpezas em ritmo rápido |
+|  [Multi Chefe]  ---> Foco em alvo único e redutores de defesa          |
+|  [Resistência]  ---> Controle de grupo contínuo, regeneração e vida    |
++------------------------------------------------------------------------+
+```
+
+As chaves do torneio frequentemente trazem modificadores de fase ativos. Um modificador que concede +50% de dano elemental ou penaliza os tempos de recarga físicos altera completamente o valor relativo de cada unidade. De acordo com a experiência de jogadores de guildas de alto escalão, forçar um "esquadrão meta" padrão contra um modificador desfavorável é o motivo mais comum para elencos capacitados estagnarem em ranques medianos.
+
+A tabela abaixo destaca as perguntas essenciais a serem respondidas antes de montar sua equipe:
+
+| Variável da Regra | Impacto na Dinâmica da Partida | Ajuste Recomendado na Escalação |
+| :--- | :--- | :--- |
+| **Fator de Pontuação** | Determina sua principal condição de vitória | Aloque espaços exclusivamente para atributos que geram pontos |
+| **Temporizador de Confronto** | Determina quanto tempo você tem para escalar as unidades | Favoreça dano explosivo imediato em vez de unidades de escalonamento tardio |
+| **Modificadores Ativos** | Alteram a eficácia básica e características dos personagens | Substitua unidades generalistas por alternativas fortalecidas por elemento/tipo |
+| **Limites de Relíquias/Equipamentos** | Remove a dependência de suportes tradicionais | Use composições equilibradas com fortalecimentos autossuficientes |
+| **Layout de Estrangulamento** | Restringe a densidade de posicionamento e linha de visão | Treine sequências precisas de posicionamento em testes práticos |
+
+---
+
+## Montando uma Escalação Pronta para o Torneio
+
+Uma escalação campeã não se resume a colocar cinco causadores de dano de primeira linha em campo. Acumular dano bruto sem uma base de economia, bônus (buffs) ou controle de grupo resulta em aberturas lentas e alvos vazando pelas defesas. Uma formação resiliente distribui as responsabilidades entre três pilares fundamentais: **Pontuadores**, **Viabilizadores** e **Ferramentas de Segurança**.
+
+```
+                 [ A TRÍADE DO TORNEIO ]
+                       Pontuadores
+                       /         \
+             Viabilizadores <-----> Ferramentas de Segurança
+```
+
+### Os Três Pilares da Equipe
+
+1. **Pontuadores Principais (1–2 Unidades):** Esses personagens possuem os perfis de dano específicos necessários para extrair o máximo do sistema de pontuação do evento. Em testes de velocidade, destacam-se unidades de dano em área concentrado no início. Em confrontos contra chefes, são atacantes precisos de alvo único com redução de armadura.
+2. **Viabilizadores (2–3 Unidades):** Unidades que aceleram os pontuadores principais. Esse grupo inclui geradores de recursos, reforços de velocidade de ataque, aplicadores de penalidades (debuffs) e especialistas em agrupar inimigos para facilitar limpezas em área.
+3. **Ferramentas de Segurança (0–1 Unidade):** Controle de grupo altamente confiável ou escudos defensivos que protegem contra picos repentinos de dano letais. Em partidas com alta variância, um único congelamento ou barreira pode evitar a perda total da tentativa.
+
+Avaliar sua formação pela função de cada unidade ajuda a evitar redundâncias. A matriz a seguir descreve os arquétipos comuns de esquadrão e onde eles se destacam em um **torneio de readventures**:
+
+| Arquétipo de Escalação | Mecanismo Principal de Pontuação | Demanda de Recursos | Condições Ideais do Evento | Principal Risco Operacional |
+| :--- | :--- | :--- | :--- | :--- |
+| **Avanço Explosivo (Burst Rush)** | Eliminação instantânea de ondas por acúmulo de tempos de recarga | Alto custo no início de jogo | Time attack rigoroso; ondas de lacaios com vida baixa | Exaustão durante confrontos prolongados contra chefes |
+| **Escalonamento Progressivo** | Crescimento contínuo de atributos por onda concluída | Configuração inicial moderada | Corridas longas de resistência; inimigos com muita vida | Falha nas primeiras ondas antes que o escalonamento ocorra |
+| **Controle Total (Lockdown)** | Agrupamento, atordoamentos e rotações de congelamento | Baixa a moderada | Hordas de alta densidade; fases com bônus de sobrevivência | Falta de impacto suficiente para chefes que exigem testes rigorosos de DPS |
+| **Híbrido Adaptativo** | Mistura equilibrada de DPS sustentado e utilidade | Curva flexível | Objetivos rotativos de onda; tendências rivais desconhecidas | Pontua menos do que formações totalmente especializadas |
+
+Relatos da comunidade enfatizam constantemente que tentar trocar toda a formação entre as tentativas de partida introduz erros humanos. Em vez disso, mantenha a estrutura base de viabilizadores fixa e substitua apenas suas unidades principais de pontuação para se adequar às regras diárias do torneio.
+
+---
+
+## Configuração Passo a Passo da Partida e Estratégia de Abertura
+
+Uma partida de alto nível em qualquer chave competitiva de **torneio de readventures** raramente é decidida nos segundos finais; ela é quase sempre definida durante os três primeiros ciclos de ondas. Se o seu posicionamento de abertura for descuidado ou o gasto inicial de recursos for atrasado, você criará um déficit econômico que prejudicará drasticamente o seu potencial no final da partida.
+
+Antes de gastar seu bilhete de entrada competitivo, siga uma sequência estruturada de preparação:
+
+```
+[Fase 1: Análise das Regras] 
+       │
+       ▼
+[Fase 2: Seleção do Núcleo] 
+       │
+       ▼
+[Fase 3: Mapeamento da Rota Inicial] 
+       │
+       ▼
+[Fase 4: Teste de Variável Única] 
+       │
+       ▼
+[Fase 5: Execução Competitiva]
+```
+
+### Passo 1: Fixe as Regras e o Terreno
+Inspecione o mapa do torneio em busca de bifurcações de rota, zonas de perigo e interseções ideais de alcance. Identifique onde seu causador principal de dano pode cobrir múltiplos caminhos sem sofrer com pontos cegos.
+
+### Passo 2: Selecione a Unidade Âncora
+Identifique a unidade capaz de segurar a primeira onda sozinha. Posicionar uma unidade secundária cara cedo demais adia o acesso a melhorias utilitárias vitais.
+
+### Passo 3: Mapeie os Posicionamentos Iniciais
+Estabeleça uma ordem exata de posicionamento para suas três primeiras unidades. Sua estrutura inicial deve gerar estabilidade suficiente no tabuleiro para financiar seus viabilizadores sem forçar posicionamentos de pânico em emergências.
+
+### Passo 4: Realize um Teste de Variável Única
+Caso modos de teste ou partidas amistosas estejam disponíveis, ajuste apenas **uma** variável de cada vez — como mover um viabilizador um espaço à frente ou alterar uma escolha de melhoria inicial. Modificar vários parâmetros simultaneamente impede que você identifique o que realmente causou um aumento ou queda na pontuação.
+
+### Passo 5: Confirme e Execute
+Assim que estabelecer uma abertura que gere excedente consistente de recursos no meio da partida, comprometa-se com a tentativa. Mantenha uma execução disciplinada no tempo certo e evite improvisar sob a pressão do torneio.
+
+O fluxo de trabalho abaixo detalha como gerenciar seus recursos em cada estágio de uma partida de torneio:
+
+| Estágio da Partida | Objetivo Operacional | Estratégia de Alocação de Recursos | Erro Crítico a Evitar |
+| :--- | :--- | :--- | :--- |
+| **Abertura (Ondas 1–3)** | Estabelecer o controle básico do mapa | Posicionar a unidade âncora; garantir geradores de economia iniciais | Gastar demais em unidades secundárias antes de estabilizar a economia |
+| **Meio de Jogo (Ondas 4–7)** | Escalar multiplicadores de pontuação | Atingir marcos de melhoria do causador de dano principal; aplicar penalidades | Distribuir melhorias de forma homogênea entre unidades de baixo impacto |
+| **Fim de Jogo (Ondas 8–10)** | Maximizar o rendimento de pontuação | Gastar todas as reservas restantes em dano bruto e habilidades ativas | Guardar recursos sem gastar além da janela final de pontuação |
+| **Revisão Pós-Partida** | Identificar falhas mecânicas | Registrar pontuação final, tempo das melhorias e posicionamento das unidades | Reformular a equipe inteira imediatamente após uma única tentativa ruim |
+
+Para discussões mecânicas contínuas e interações de atualizações recentes, os jogadores trocam dados de posicionamento com frequência no [Steam Community Discussions](https://steamcommunity.com), o que pode ajudar você a verificar parâmetros de tempo de ondas em relação a outros competidores ativos.
+
+---
+
+## Diagnosticando Falhas nas Partidas e Avaliando o Desempenho
+
+Quando sua tentativa no torneio fica abaixo da faixa desejada, fazer trocas aleatórias no elenco raramente resolve o problema raiz. Subir de ranque exige identificar se a pontuação baixa decorre da composição do esquadrão, de melhorias feitas no momento errado ou de falhas de execução mecânica.
+
+A experiência dos jogadores demonstra que os fracassos nas partidas geralmente seguem padrões claros. Se você costuma deixar alvos escaparem nas primeiras ondas, o problema está no ritmo de posicionamento, e não no escalonamento de fim de jogo. Por outro lado, limpar todas as ondas com perfeição mas ficar fora dos 10% melhores indica que sua formação carece da amplificação agressiva de dano exigida pelos parâmetros de pontuação do evento.
+
+Use esta matriz diagnóstica para solucionar problemas em suas partidas de torneio:
+
+| Sintoma Observado | Causa Raiz Principal | Solução Tática Imediata |
+| :--- | :--- | :--- |
+| **Vazamentos nas Ondas Iniciais** | Unidades de alto custo posicionadas tarde demais | Substitua um carregador secundário por uma unidade âncora de baixo custo e ritmo acelerado |
+| **Estagnação no Meio de Jogo** | Escalonamento econômico ineficiente | Adie melhorias em unidades não essenciais até que seu motor econômico atinja o ponto ideal |
+| **Tempo Limite Contra o Chefe** | Falta de penetração de armadura ou penalidades | Substitua um espaço de utilidade defensiva por um amplificador de dano focado |
+| **Alta Variação na Pontuação** | Seleção inconsistente de alvos ou uso desordenado de habilidades | Padronize sua sequência de posicionamento e acione habilidades manuais no momento certo |
+| **Limpeza Impecável, Ranque Baixo** | Excesso de segurança defensiva | Remova escudos/curandeiros excedentes em favor de multiplicadores de pontuação |
+
+Acompanhar métricas ao longo de várias partidas cria uma base confiável de desempenho. Mantenha um registro mental ou anotado de:
+* Pontuação total obtida versus a meta da sua faixa competitiva
+* Momento exato da sua primeira grande promoção ou melhoria de unidade
+* Habilidades não utilizadas ou recursos restantes no encerramento da partida
+* Comportamento de direcionamento de alvos nas ondas prioritárias
+
+---
+
+## Protegendo Sua Pontuação e Definindo Metas de Ranqueamento em Camadas
+
+As tabelas de torneio são dinâmicas: uma pontuação que garante o top 5% no primeiro dia costuma cair para o top 20% até o fim da rodada. Garantir sua classificação final exige uma estratégia de pontuação em camadas, em vez de arriscar todos os bilhetes em estratégias descontroladas e de alto risco.
+
+Uma abordagem profissional na tabela do **torneio de readventures** divide suas metas de pontuação em três camadas operacionais:
+
+```
+[ META DE EXPANSÃO ]    ---> Configurações arriscadas e experimentais (avanço nas horas finais)
+       ▲
+[ META COMPETITIVA ]    ---> Partidas otimizadas com execução limpa e melhorias refinadas
+       ▲
+[ META BASE ]           ---> Partida segura e altamente reproduzível, com 0% de risco de falha
+```
+
+1. **A Meta Base:** Uma configuração limpa e sem riscos que garante uma colocação sólida na tabela. Sempre garanta uma pontuação base no início do ciclo do torneio para ter uma margem de segurança.
+2. **A Meta Competitiva:** Uma partida otimizada utilizando sua composição principal, executada com tempos precisos de melhoria. Isso representa o rendimento confiável máximo que a progressão atual da sua conta pode produzir.
+3. **A Meta de Expansão:** Uma partida de alta variância e risco máximo reservada para as horas finais do evento, quando subir de faixa exige uma pontuação extraordinária. Essa formação remove as redes de segurança para buscar multiplicadores ofensivos máximos.
+
+Ao estabelecer uma pontuação base sólida logo no início, você se protege contra a má sorte (RNG) nos bilhetes ou quedas repentinas de conexão. Só migre para composições arriscadas de alto dano e pouca defesa quando sua pontuação base estiver garantida na tabela e a nota de corte matemática para a sua faixa desejada exigir um teto de pontos mais alto.
+
+---
+
+## Resumo das Melhores Práticas para o Torneio
+
+O sucesso no cenário competitivo de *ReAdventures* é uma maratona de pequenas otimizações calculadas. Mantenha estas regras fundamentais em mente durante toda a sua temporada competitiva:
+
+* **Monte sua Estratégia de Acordo com as Regras:** Nunca inicie uma partida sem antes revisar as fórmulas de pontuação e os modificadores ativos do mapa.
+* **Respeite a Abertura:** Domine os três primeiros posicionamentos de unidades até que a sequência se torne automática.
+* **Controle seus Testes:** Ajuste apenas uma unidade, posição no mapa ou rota de melhoria por vez para avaliar o impacto com precisão.
+* **Priorize a Consistência:** Uma partida confiável e reproduzível que termina no top 10% é infinitamente mais valiosa do que uma equipe instável de dano puro que falha em metade das tentativas.
+
+---
+
+## Perguntas Frequentes
+
+### Qual é o atributo mais importante a priorizar em um torneio de readventures?
+O atributo mais importante depende exclusivamente das regras ativas do evento. Se o torneio funcionar com mecânicas de time attack, priorize dano explosivo imediato e recuperação rápida de tempo de recarga. Se o evento pontuar com base na conclusão total de ondas ou no dano contra chefes, priorize redução de armadura, acúmulo de penalidades e dano sustentado ao longo do tempo.
+
+### Com que frequência devo ajustar minha escalação no torneio de readventures?
+Faça ajustes apenas depois de identificar um ponto exato de falha ao longo de duas ou três tentativas de teste. Ao fazer uma alteração, modifique apenas uma única unidade ou sequência de melhorias de cada vez para poder avaliar com precisão se a mudança impactou positivamente sua pontuação final.
+
+### Devo copiar diretamente a formação do jogador no topo da tabela?
+Use as composições dos líderes da tabela como referência temática, e não como um modelo absoluto. Jogadores de ranque elevado costumam depender de características específicas de alto nível dos personagens, conjuntos otimizados de equipamentos ou posicionamentos de nicho que podem não funcionar se a sua conta não tiver os atributos de suporte necessários ou o nível de cópias exigido.
+
+### Como evitar vazamento de inimigos nas primeiras ondas em partidas competitivas?
+Vazamentos nas ondas iniciais geralmente decorrem do posicionamento precoce de uma unidade carregadora (carry) cara antes de garantir o controle do mapa. Comece as partidas com uma unidade âncora acessível e confiável, capaz de cobrir os caminhos iniciais de surgimento dos monstros, e aguarde a estabilização da economia antes de posicionar especialistas de pontuação com alto custo de recursos.

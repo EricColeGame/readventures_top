@@ -237,39 +237,66 @@ export interface NavGroup {
 
 // 分组标题映射：slug → 人类可读标题（默认英文）
 const GROUP_TITLES: Record<string, string> = {
-  bosses: "Bosses",
-  races: "Races",
-  maps: "Maps & Areas",
-  skills: "Skills",
-  codes: "Codes",
   guide: "Getting Started",
-  "tier-list": "Tier Lists",
+  mechanics: "Mechanics",
+  characters: "Characters",
+  items: "Items",
+  rankings: "Rankings",
+  modes: "Game Modes",
+  updates: "Updates",
+  community: "Community",
 };
 
-// 日文分组标题映射
-const GROUP_TITLES_JA: Record<string, string> = {
-  bosses: "ボス",
-  races: "種族",
-  maps: "マップ & エリア",
-  skills: "スキル",
-  codes: "コード",
-  guide: "初心者ガイド",
-  "tier-list": "Tier List",
+const GROUP_TITLES_ES: Record<string, string> = {
+  guide: "Primeros pasos",
+  mechanics: "Mecánicas",
+  characters: "Personajes",
+  items: "Objetos",
+  rankings: "Rankings",
+  modes: "Modos de juego",
+  updates: "Actualizaciones",
+  community: "Comunidad",
+};
+
+const GROUP_TITLES_PT: Record<string, string> = {
+  guide: "Primeiros passos",
+  mechanics: "Mecânicas",
+  characters: "Personagens",
+  items: "Itens",
+  rankings: "Rankings",
+  modes: "Modos de jogo",
+  updates: "Atualizações",
+  community: "Comunidade",
+};
+
+const GROUP_TITLES_DE: Record<string, string> = {
+  guide: "Erste Schritte",
+  mechanics: "Mechaniken",
+  characters: "Charaktere",
+  items: "Gegenstände",
+  rankings: "Ranglisten",
+  modes: "Spielmodi",
+  updates: "Updates",
+  community: "Community",
 };
 
 // locale → 分组标题映射
 const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
-  ja: GROUP_TITLES_JA,
+  es: GROUP_TITLES_ES,
+  pt: GROUP_TITLES_PT,
+  de: GROUP_TITLES_DE,
 };
 
 // locale → "Overview" 翻译
 const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
-  ja: "一覧",
+  es: "Resumen",
+  pt: "Visão geral",
+  de: "Übersicht",
 };
 
 // 分组排序顺序
 const GROUP_ORDER: string[] = [
-  "guide", "races", "bosses", "maps", "skills", "codes", "tier-list",
+  "guide", "mechanics", "characters", "items", "rankings", "modes", "updates", "community",
 ];
 
 /**

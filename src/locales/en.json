@@ -6,7 +6,19 @@
     "description": "Readventures Wiki provides gameplay guides, character information, mechanics details, and useful tips to help players explore the adventure world.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
-  "nav": {},
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "characters": "Characters",
+    "items": "Items",
+    "rankings": "Rankings",
+    "modes": "Modes",
+    "updates": "Updates",
+    "community": "Community"
+  },
   "home": {
     "meta": {
       "title": "Readventures Wiki — Guides, Units, Tier Lists & Updates",
@@ -365,7 +377,6 @@
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
     "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
@@ -376,7 +387,8 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "viewAllUpdates": "View all updates"
   },
   "footer": {
     "aboutTitle": "Readventures Wiki",
@@ -390,11 +402,39 @@
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Character Planner",
-    "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "guide": {
+    "overviewTitle": "Readventures Guides",
+    "overviewDescription": "Step-by-step Readventures guides covering the beginner path, progression, rerolls, and gem spending so new players know exactly what to do first."
+  },
+  "mechanics": {
+    "overviewTitle": "Readventures Mechanics",
+    "overviewDescription": "Learn how Readventures combat actually works, including damage scaling, buff stacking, the Erwin cycle, and tournament rules."
+  },
+  "characters": {
+    "overviewTitle": "Readventures Characters",
+    "overviewDescription": "Unit breakdowns and unlock notes for Readventures characters such as Shanks, Akainu, and Erwin, plus how to build a strong roster."
+  },
+  "items": {
+    "overviewTitle": "Readventures Items",
+    "overviewDescription": "Everything about Readventures items and resources: gems, summons, rerolls, and the loadout choices that shape your run."
+  },
+  "rankings": {
+    "overviewTitle": "Readventures Rankings",
+    "overviewDescription": "Readventures tier lists and rankings that sort the best units, the current meta, and the strongest picks for each stage of the game."
+  },
+  "modes": {
+    "overviewTitle": "Readventures Game Modes",
+    "overviewDescription": "Overviews of every Readventures game mode, from the challenge run to the tournament mode and the rewards each one offers."
+  },
+  "updates": {
+    "overviewTitle": "Readventures Updates",
+    "overviewDescription": "Patch notes and Readventures update coverage, including new units, balance changes, and everything added in the latest release."
+  },
+  "community": {
+    "overviewTitle": "Readventures Community",
+    "overviewDescription": "Find the official Readventures Discord, Reddit, and YouTube channels to share builds, codes, and tips with other players."
   }
 }

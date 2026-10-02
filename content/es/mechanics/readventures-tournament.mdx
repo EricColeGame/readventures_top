@@ -1,0 +1,198 @@
+export const metadata = {
+  title: "Guía de torneos de ReAdventures: configuraciones comprobadas, alineaciones y estrategias de clasificación",
+  description: "Domina el torneo de readventures con arquetipos de alineación expertos, reglas de puntuación, secuencias de apertura y consejos para escalar en la tabla de clasificación.",
+  category: "mechanics",
+  date: "2026-09-24",
+};
+
+Entrar en el juego competitivo requiere mucho más que simplemente desplegar tus personajes de mayor nivel; exige una comprensión precisa del sistema de puntuación del evento y del ritmo de las oleadas. Si quieres reclamar las recompensas más altas de la tabla de clasificación, dominar el sistema de **torneos de readventures** es fundamental para tu progresión. El éxito en cualquier **torneo de readventures** radica en adaptar tu configuración a los modificadores de mapa y condiciones de puntos específicos, en lugar de depender de la fuerza bruta. 
+
+Al priorizar una ejecución repetible por encima de apuestas de alta varianza, escalar en los niveles de la tabla de clasificación se convierte en un proceso predecible y controlable. Este análisis exhaustivo cubre todo lo necesario para diseñar un equipo ganador de torneos, asegurar el máximo de puntos y diagnosticar los fallos más comunes en tus partidas.
+
+---
+
+## Comprensión de las mecánicas del torneo y condiciones de victoria
+
+El mayor error que cometen los jugadores en los eventos competitivos es tratar las partidas como fases de campaña estándar. En la progresión habitual, superar una oleada con un 1% de vida restante otorga la misma victoria que un barrido impecable. En el modo torneo, sin embargo, la victoria se define estrictamente por los criterios de puntuación asignados a ese ciclo de evento en particular.
+
+Antes de gastar boletos de evento o recurrir a valiosos rerolls, estudia el registro del torneo. Las temporadas competitivas de *ReAdventures* alternan entre varios esquemas de puntuación bien definidos:
+
+* **Daño total sostenido:** Los puntos escalan directamente con la cantidad numérica total de daño infligido a lo largo de todo el encuentro.
+* **Velocidad de despeje (Time Attack):** Los puntos decaen rápidamente a medida que pasa el tiempo, lo que prioriza aperturas con daño explosivo alto e habilidades de limpieza de mapa inmediata.
+* **Supervivencia de oleadas:** Cada oleada superada otorga una puntuación base creciente, a menudo penalizando las bajas del escuadrón o el daño a estructuras.
+* **Control de objetivos / jefes:** Se conceden multiplicadores por derrotar objetivos prioritarios mientras se mantienen despejadas zonas específicas del mapa de esbirros menores.
+
+```
++------------------------------------------------------------------------+
+|                  PRIORIDAD DE OBJETIVOS DE PUNTUACIÓN                  |
+|                                                                        |
+|  [Time Attack]  ---> Daño explosivo inicial y limpiezas de alto ritmo   |
+|  [Boss Multi]   ---> Foco monobjetivo y habilitadores de reducción def |
+|  [Endurance]    ---> Control de masas sostenido, regen y supervivencia |
++------------------------------------------------------------------------+
+```
+
+Las divisiones de torneos suelen contar con modificadores de fase activos. Un modificador que otorgue un +50% de daño elemental o penalice los enfriamientos físicos altera por completo qué unidades son valiosas. Según la experiencia de jugadores de gremios de alto rango, forzar un «equipo meta» estándar frente a un modificador desfavorable es la causa más común de que alineaciones competentes queden estancadas en rangos mediocres.
+
+La siguiente tabla destaca las preguntas críticas que debes responder antes de armar tu equipo:
+
+| Variable de regla | Impacto en la dinámica de la partida | Ajuste recomendado de alineación |
+| :--- | :--- | :--- |
+| **Factor de puntos** | Dicta tu condición principal de victoria | Asigna puestos exclusivamente a estadísticas que generen puntuación |
+| **Temporizador de encuentro** | Determina cuánto tiempo tienes para escalar unidades | Prefiere daño explosivo inmediato frente a unidades de escalado tardío |
+| **Modificadores activos** | Altera la efectividad base de los personajes y sus rasgos | Reemplaza unidades generalistas por alternativas potenciadas por elemento/tipo |
+| **Límites de reliquias/equipo** | Elimina la dependencia de ventajas estándar | Utiliza composiciones equilibradas con mejoras autosuficientes |
+| **Diseño de puntos de estrangulamiento** | Restringe la densidad de despliegue y la línea de visión | Practica secuencias precisas de colocación en casillas durante partidas de prueba |
+
+---
+
+## Cómo armar una alineación lista para el torneo
+
+Una alineación de campeonato no se limita a colocar cinco atacantes de máximo nivel en el campo. Acumular daño bruto en exceso sin el respaldo de economía, potenciadores o control de masas genera aperturas lentas y filtraciones de enemigos. Una plantilla resistente distribuye las responsabilidades en tres pilares fundamentales: **Anotadores**, **Habilitadores** y **Herramientas de seguridad**.
+
+```
+         [ LA TRÍADA DEL TORNEO ]
+                Anotadores
+               /          \
+      Habilitadores <-----> Herramientas de seguridad
+```
+
+### Los tres pilares del escuadrón
+
+1. **Anotadores principales (1–2 unidades):** Estos personajes cuentan con los perfiles de daño específicos necesarios para aprovechar al máximo el sistema de puntuación del evento. En pruebas de velocidad, son unidades con daño en área frontal. En pruebas contra jefes consecutivos, son atacantes de precisión monobjetivo con reducción de armadura.
+2. **Habilitadores (2–3 unidades):** Unidades que impulsan al núcleo. Este grupo incluye unidades de generación de recursos, potenciadores de velocidad de ataque, aplicadores de desventajas y especialistas en agrupación que reúnen a los enemigos para facilitar barridos en área más limpios.
+3. **Herramientas de seguridad (0–1 unidad):** Control de masas de alta fiabilidad o barreras defensivas que protegen contra picos repentinos de daño que podrían arruinar la partida. En encuentros de gran variabilidad, una sola congelación o barrera puede evitar una derrota costosa.
+
+Evaluar tu composición según el rol de cada unidad te ayuda a evitar redundancias. La siguiente matriz resume los arquetipos de escuadrón habituales y dónde destacan en un **torneo de readventures**:
+
+| Arquetipo de alineación | Mecanismo principal de puntuación | Demandas de recursos | Condiciones ideales de evento | Principal riesgo operativo |
+| :--- | :--- | :--- | :--- | :--- |
+| **Burst Rush** | Eliminación instantánea de oleadas mediante acumulación de enfriamientos | Alto coste al inicio | Time attack estricto; oleadas de esbirros con baja vida | Agotamiento durante encuentros prolongados contra jefes |
+| **Escalado acumulativo** | Crecimiento progresivo de estadísticas por oleada completada | Preparación inicial moderada | Partidas largas de resistencia; enemigos con gran reserva de vida | Caída en oleadas tempranas antes de alcanzar el escalado |
+| **Control de bloqueo** | Agrupación, aturdimientos y rotaciones de congelación | De bajo a moderado | Enjambres de alta densidad; fases con bonificación de supervivencia | Carece de suficiente pegada para jefes con chequeos de DPS estrictos |
+| **Híbrido adaptable** | Mezcla equilibrada de DPS sostenido y utilidad | Curva flexible | Objetivos de oleada rotativos; tendencias desconocidas de rivales | Puntuación menor en comparación con arquetipos totalmente especializados |
+
+Los informes de la comunidad enfatizan de manera constante que cambiar una plantilla completa entre intentos introduce errores humanos. En su lugar, mantén fija la estructura de tus habilitadores y cambia únicamente tus unidades anotadoras principales para adaptarte a las reglas diarias del torneo.
+
+---
+
+## Configuración de partida paso a paso y estrategia de apertura
+
+Una partida de alto rango en cualquier división competitiva de un **torneo de readventures** rara vez se decide en los últimos segundos; por lo general, se define durante los primeros tres ciclos de oleadas. Si la colocación inicial es deficiente o retrasas el gasto inicial de recursos, generarás un déficit económico que limitará severamente tu potencial en el juego tardío.
+
+Antes de hacer cola para gastar tu boleto competitivo, sigue una secuencia de preparación estructurada:
+
+```
+[Fase 1: Revisión de reglas] 
+       │
+       ▼
+[Fase 2: Selección del núcleo] 
+       │
+       ▼
+[Fase 3: Mapeo de la ruta de apertura] 
+       │
+       ▼
+[Fase 4: Prueba de variable única] 
+       │
+       ▼
+[Fase 5: Ejecución competitiva]
+```
+
+### Paso 1: Fija las reglas y el terreno
+Inspecciona el mapa del torneo en busca de divisiones de carriles, zonas de peligro e intersecciones de alcance óptimo. Identifica dónde tu atacante principal cubre múltiples trayectos sin sufrir puntos ciegos.
+
+### Paso 2: Selecciona la unidad ancla
+Identifica la unidad capaz de contener la primera oleada en solitario. Desplegar una unidad secundaria costosa demasiado pronto retrasará tu acceso a mejoras de utilidad vitales.
+
+### Paso 3: Traza las colocaciones iniciales
+Establece un orden exacto de colocación para tus tres primeras unidades. Tu configuración inicial debe generar suficiente estabilidad en el tablero como para financiar a tus habilitadores sin forzar despliegues de pánico de emergencia.
+
+### Paso 4: Realiza una prueba de variable única
+Si los modos de prueba o desafíos amistosos están disponibles, ajusta solo **una** variable a la vez, como mover un habilitador una casilla hacia adelante o cambiar una opción de mejora inicial. Modificar varios parámetros simultáneamente oculta qué causó realmente el aumento o la caída en la puntuación.
+
+### Paso 5: Confirma y ejecuta
+Una vez que establezcas una apertura que genere un excedente constante de recursos para la mitad de la partida, comprométete con el intento. Mantén una disciplina rigurosa en tus tiempos y evita improvisar bajo la presión del torneo.
+
+El flujo de trabajo a continuación detalla cómo gestionar tus recursos a lo largo de cada fase de un intento de torneo:
+
+| Fase de la partida | Objetivo operativo | Estrategia de asignación de recursos | Error crítico a evitar |
+| :--- | :--- | :--- | :--- |
+| **Apertura (Oleadas 1–3)** | Establecer el control básico del mapa | Desplegar la unidad ancla; asegurar generadores tempranos de economía | Gastar de más en unidades secundarias antes de estabilizar la economía |
+| **Juego medio (Oleadas 4–7)** | Escalar los multiplicadores de puntuación | Mejorar los puntos de quiebre del atacante principal; aplicar desventajas | Distribuir mejoras de forma equitativa entre unidades de bajo impacto |
+| **Juego tardío (Oleadas 8–10)** | Maximizar la generación de puntos | Gastar todas las reservas restantes en daño bruto y habilidades activas | Acumular recursos sin gastar más allá del periodo final de puntuación |
+| **Revisión post-partida** | Identificar fallos mecánicos | Registrar la puntuación final, los tiempos de mejora y la posición de unidades | Reestructurar de inmediato el equipo tras un solo intento fallido |
+
+Para debates continuos sobre mecánicas e interacciones actualizadas con los parches, los jugadores comparten datos de posicionamiento con frecuencia en los [Steam Community Discussions](https://steamcommunity.com), lo que te ayudará a comparar tus marcas de tiempo por oleada con otros competidores activos.
+
+---
+
+## Diagnóstico de fallos en la partida y evaluación de rendimiento
+
+Cuando tu intento de torneo no alcanza la división deseada, realizar cambios aleatorios en la plantilla rara vez soluciona el problema de fondo. Mejorar tu posición exige identificar si una puntuación baja proviene de la composición del escuadrón, de tiempos de mejora subóptimos o de errores de ejecución mecánica.
+
+La experiencia de los jugadores demuestra que los fallos en las partidas suelen seguir patrones concretos. Si sufres filtraciones constantes en las primeras oleadas, el problema radica en tu ritmo de despliegue, no en tu escalado de juego tardío. Por el contrario, superar cada oleada limpiamente pero quedar fuera del 10% superior indica que tu alineación carece de la amplificación de daño agresiva exigida por las reglas de puntuación del evento.
+
+Utiliza esta matriz de diagnóstico para resolver problemas en tus partidas de torneo:
+
+| Síntoma observado | Causa raíz principal | Solución táctica inmediata |
+| :--- | :--- | :--- |
+| **Filtraciones en oleadas tempranas** | Unidades de alto coste desplegadas demasiado tarde | Reemplaza un carry secundario por una unidad ancla económica y de ritmo rápido |
+| **Estancamiento en juego medio** | Escalado ineficiente de la economía | Pospón mejoras no esenciales hasta que tu motor económico alcance su punto de quiebre |
+| **Tiempo agotado contra jefes** | Falta de penetración de armadura o desventajas | Sustituye un espacio de utilidad defensiva por un amplificador de daño específico |
+| **Alta variación en puntuación** | Enfoque inconsistente de objetivos o uso errático de habilidades | Estandariza la secuencia de colocación y bloquea la activación manual de habilidades |
+| **Limpieza impecable, rango bajo** | Red de seguridad defensiva sobredimensionada | Retira escudos o curanderos excesivos en favor de multiplicadores de puntuación |
+
+Registrar métricas a lo largo de varias partidas crea una base de rendimiento fiable. Lleva un registro mental o escrito de:
+* Puntuación total obtenida frente al objetivo de tu división competitiva
+* Momento exacto de tu primera gran promoción o mejora de unidad
+* Habilidades sin usar o recursos sin gastar al sonar la campana final
+* Comportamiento de selección de objetivos en oleadas prioritarias
+
+---
+
+## Cómo proteger tu puntuación y fijar objetivos de rango por niveles
+
+Las clasificaciones de los torneos son dinámicas; una puntuación que garantiza un puesto en el 5% superior el primer día a menudo desciende al 20% superior al finalizar la ronda. Asegurar tu clasificación definitiva requiere una estrategia de puntuación por niveles en lugar de arriesgar cada boleto con tácticas desmedidas de alto riesgo.
+
+Un enfoque profesional para escalar en el **torneo de readventures** divide tus metas de puntuación en tres niveles operativos:
+
+```
+[ OBJETIVO AMBICIOSO ]    ---> Configuraciones de alto riesgo y experimentales (empuje de últimas horas)
+       ▲
+[ OBJETIVO COMPETITIVO ]  ---> Partidas optimizadas con ejecución limpia y mejoras perfeccionadas
+       ▲
+[ OBJETIVO BASE ]         ---> Partida segura y altamente reproducible con un 0% de riesgo de fallo
+```
+
+1. **El objetivo base:** Una configuración limpia y sin riesgos que garantiza una posición sólida en la tabla de clasificación. Asegura siempre una puntuación base al comienzo del ciclo del torneo para disponer de un colchón de seguridad.
+2. **El objetivo competitivo:** Una partida optimizada que utiliza tu composición principal, ejecutada con tiempos de mejora milimétricos. Representa el rendimiento máximo y fiable que puede ofrecer el progreso actual de tu cuenta.
+3. **El objetivo ambicioso:** Una partida de alta varianza y máximo riesgo reservada para las últimas horas del evento, cuando subir a una categoría superior exige una puntuación récord. Esta variante elimina redes de seguridad para buscar los multiplicadores ofensivos más altos.
+
+Al establecer una base sólida desde el inicio, te proteges contra malas tiradas de boletos o caídas imprevistas de conexión. Solo debes orientarte hacia composiciones arriesgadas de «cañón de cristal» una vez que tu puntuación base esté consolidada en la clasificación y el límite matemático de la categoría deseada requiera un techo de puntos más elevado.
+
+---
+
+## Resumen de las mejores prácticas para torneos
+
+El éxito en el juego competitivo de *ReAdventures* es una maratón de optimizaciones pequeñas y calculadas. Ten presentes estas reglas esenciales a lo largo de toda tu temporada competitiva:
+
+* **Diseña para las reglas:** Nunca inicies una partida sin revisar las fórmulas de puntuación y los modificadores activos del mapa.
+* **Respeta la apertura:** Domina la colocación de tus tres primeras unidades hasta que la secuencia de despliegue sea un acto reflejo.
+* **Controla tus pruebas:** Ajusta solo una unidad, casilla de colocación o rama de mejora a la vez para evaluar con exactitud su impacto.
+* **Prioriza la consistencia:** Una partida segura y repetible que se sitúe dentro del 10% superior es infinitamente más valiosa que una alineación errática de alto daño que fracase la mitad de las veces.
+
+---
+
+## Preguntas frecuentes
+
+### ¿Cuál es la estadística más importante a priorizar en un torneo de readventures?
+La estadística principal depende estrictamente de las reglas del evento activo. Si el torneo se rige por mecánicas de time attack, prioriza el daño explosivo y la recuperación rápida de enfriamientos. Si puntúa en función del total de oleadas superadas o del daño a jefes, da prioridad a la reducción de armadura, la acumulación de desventajas y el daño sostenido en el tiempo.
+
+### ¿Con qué frecuencia debería ajustar mi alineación en un torneo de readventures?
+Realiza ajustes únicamente tras identificar un fallo recurrente y exacto a lo largo de dos o tres partidas de prueba. Cuando modifiques algo, cambia solo una unidad o secuencia de mejora a la vez para comprobar con claridad si el ajuste mejoró tu puntuación final.
+
+### ¿Debería copiar directamente la composición de equipo del jugador mejor clasificado?
+Utiliza las alineaciones de la tabla de clasificación como referencia conceptual y no como un plano absoluto. Los jugadores de mayor rango dependen con frecuencia de rasgos específicos de personajes de nivel muy alto, conjuntos de equipamiento optimizados o colocaciones muy de nicho que tal vez no rindan igual si tu cuenta carece de las estadísticas de apoyo o los duplicados requeridos.
+
+### ¿Cómo evito filtraciones en oleadas tempranas durante partidas competitivas?
+Las filtraciones iniciales suelen producirse al desplegar un carry costoso antes de asegurar el control del mapa. Comienza las partidas con una unidad ancla asequible y fiable, capaz de cubrir las rutas de aparición iniciales, y espera a que tu economía se estabilice antes de incorporar especialistas anotadores con alto coste de recursos.
